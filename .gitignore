@@ -102,3 +102,17 @@ dist
 
 # TernJS port file
 .tern-port
+02_operators/04_comparison.js
+02_operators/index.html
+02_operators/07_switch.js
+02_operators/06_conditional.js
+02_operators/05_logical.js
+02_operators/03_assignment.js
+02_operators/02_increment_decrement.js
+02_operators/01_binary.js
+01_types/index.html
+01_types/05_typeof.js
+01_types/02_string.js
+01_types/01_number.js
+01_types/03_bool.js
+01_types/04_null_undefined.js
