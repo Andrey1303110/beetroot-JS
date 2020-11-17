@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/money.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Напишите сумму которую хотите купить в выбранной валюте</p>
+    <form name="money_input">
+        <input type="number" id="userMoney">
+    </form>
+    <div class="form_radio_group">
+        <div class="form_radio_group-item">
+            <input id="usd" type="radio" name="radio" value="1" checked>
+            <label for="usd">USD</label>
+        </div>
+        <div class="form_radio_group-item">
+            <input id="eur" type="radio" name="radio" value="2">
+            <label for="eur">EUR</label>
+        </div>
+        <div class="form_radio_group-item">
+            <input id="rub" type="radio" name="radio" value="3">
+            <label for="rub">RUB</label>
+        </div>
+    </div>
+
+    <input type="button" value="click on me" onclick="exchangeMoney()">
+
+    <p id="text_message"></p>
+
+    <script src="./js/money.js"></script>
+
+</body>
+
+</html>
