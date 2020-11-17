@@ -19,7 +19,7 @@ if (a == b && b > c) {
         document.write(" = ");
         document.write(b);
     }
-    if (b > c) {
+    if (b < c) {
         document.write(" > ");
         document.write(c);
     }
@@ -52,13 +52,13 @@ if (a > b && b < c) {
         document.write(" > ");
         document.write(b);
     }
-    if (b > c) {
+    if (b < c) {
         document.write(" < ");
         document.write(c);
     }
 }
 if (a < b && b == c) {
-    if (a > b) {
+    if (a < b) {
         document.write(a);
         document.write(" < ");
         document.write(b);
