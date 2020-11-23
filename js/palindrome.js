@@ -3,10 +3,10 @@ function isPallindrome() {
     let result = document.getElementById("text_message");
 
     if ((userStr[0] == userStr[4]) && (userStr[1] == userStr[3])) {
-        result.innerHTML = "Ты ввёл слово-паллиндром";
+        result.innerHTML = "Ты ввёл слово/число-паллиндром";
     }
     else {
-        result.innerHTML = "Это не слово-паллиндром";
+        result.innerHTML = "Это не слово/число-паллиндром";
     }
 
 }
