@@ -1,19 +1,14 @@
 function exchangeMoney() {
     let userSum = document.getElementById("userMoney").value;
-    let val;
-    let rateUSD;
-    let rateEUR;
-    let rateRUB
-    var result;
 
-    rateUSD = 28;
-    rateEUR = 33;
-    rateRUB = .35;
+    let rateUSD = 28;
+    let rateEUR = 33;
+    let rateRUB = .35;
 
     if (userSum <= 0) {
         alert(`Введите число от большее 0!`)
     }
-    if (userSum > 0) {
+    else if (userSum > 0) {
         switch (true) {
             case document.getElementById("usd").checked:
                 val = "USD";
